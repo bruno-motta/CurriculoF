@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #161a17, #3e5439);
+    color: #252525;
+}
+
+
+.container-externo {
+    /* Afastamento do limite esquerdo */
+    display: flex;
+    align-items: flex-start;
+    margin-left: 235px;
+
+}
+
+.container-externo img {
+    /* Espaço entre a imagem e o texto */
+    border-radius: 10%;
+    margin-right: 15px;
+
+}
+
+.texto {
+    max-width: 700px;
+}
+
+.animacao {
+    transition: transform 0.3s, opacity 0.3s;
+    /* Transição suave */
+    transform: scale(1.05);
+    /* Aumenta a imagem em 1.5 vezes */
+    opacity: 0.8;
+    /* Opacidade 80% */
+}
+
+h1 {
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: antiquewhite;
+
+}
+
+h3 {
+    color: antiquewhite;
+}
+
+li {
+    color: antiquewhite;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: antiquewhite;
+}
